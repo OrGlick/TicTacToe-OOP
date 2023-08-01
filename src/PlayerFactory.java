@@ -9,6 +9,8 @@ public class PlayerFactory {
                 return new HumanPlayer();
             case "whatever":
                 return new WhateverPlayer();
+            case "clever":
+                return new CleverPlayer();
             default:
                 return null;
         }
